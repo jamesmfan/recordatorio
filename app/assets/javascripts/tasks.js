@@ -58,6 +58,7 @@ $(function() {
         var ulRecordatorios = $('.recordatorio-list');
         ulRecordatorios.append(htmlString);
         $('.toggle').click(toggleTask);
+        $('.new-recordatorio').val('');
       });
     });
 
