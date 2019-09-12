@@ -101,7 +101,7 @@ input[type="checkbox"] {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.new-ecordatorio {
+.new-recordatorio {
   padding: 16px 16px 16px 60px;
   border: none;
   background: rgba(0, 0, 0, 0.003);
@@ -139,39 +139,39 @@ label[for='toggle-all'] {
   color: #737373;
 }
 
-.ecordatorio-list {
+.recordatorio-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.ecordatorio-list li {
+.recordatorio-list li {
   position: relative;
   font-size: 24px;
   border-bottom: 1px solid #ededed;
 }
 
-.ecordatorio-list li:last-child {
+.recordatorio-list li:last-child {
   border-bottom: none;
 }
 
-.ecordatorio-list li.editing {
+.recordatorio-list li.editing {
   border-bottom: none;
   padding: 0;
 }
 
-.ecordatorio-list li.editing .edit {
+.recordatorio-list li.editing .edit {
   display: block;
   width: 506px;
   padding: 13px 17px 12px 17px;
   margin: 0 0 0 43px;
 }
 
-.ecordatorio-list li.editing .view {
+.recordatorio-list li.editing .view {
   display: none;
 }
 
-.ecordatorio-list li .toggle {
+.recordatorio-list li .toggle {
   text-align: center;
   width: 40px;
   /* auto, since non-WebKit browsers doesn't support input styling */
@@ -181,19 +181,17 @@ label[for='toggle-all'] {
   bottom: 0;
   margin: auto 0;
   border: none; /* Mobile Safari */
-  -webkit-appearance: none;
-  appearance: none;
 }
 
-.ecordatorio-list li .toggle:after {
+.recordatorio-list li .toggle:after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3"/></svg>');
 }
 
-.ecordatorio-list li .toggle:checked:after {
+.recordatorio-list li .toggle:checked:after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#bddad5" stroke-width="3"/><path fill="#5dc2af" d="M72 25L42 71 27 56l-4 4 20 20 34-52z"/></svg>');
 }
 
-.ecordatorio-list li label {
+.recordatorio-list li label {
   white-space: pre-line;
   word-break: break-all;
   padding: 15px 60px 15px 15px;
@@ -203,12 +201,12 @@ label[for='toggle-all'] {
   transition: color 0.4s;
 }
 
-.ecordatorio-list li.completed label {
+.recordatorio-list li.completed label {
   color: #d9d9d9;
   text-decoration: line-through;
 }
 
-.ecordatorio-list li .destroy {
+.recordatorio-list li .destroy {
   display: none;
   position: absolute;
   top: 0;
@@ -223,23 +221,23 @@ label[for='toggle-all'] {
   transition: color 0.2s ease-out;
 }
 
-.ecordatorio-list li .destroy:hover {
+.recordatorio-list li .destroy:hover {
   color: #af5b5e;
 }
 
-.ecordatorio-list li .destroy:after {
+.recordatorio-list li .destroy:after {
   content: '×';
 }
 
-.ecordatorio-list li:hover .destroy {
+.recordatorio-list li:hover .destroy {
   display: block;
 }
 
-.ecordatorio-list li .edit {
+.recordatorio-list li .edit {
   display: none;
 }
 
-.ecordatorio-list li.editing:last-child {
+.recordatorio-list li.editing:last-child {
   margin-bottom: -1px;
 }
 
